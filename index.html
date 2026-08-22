@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yuvrajsinh Jadeja — Full Stack Developer</title>
+<meta name="description" content="Portfolio of Yuvrajsinh Jadeja, Full Stack Developer & MCA student — MERN stack, Generative AI, and business development experience." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Site-wide background video: plays behind every section except the hero and footer -->
+<div class="site-bg">
+  <video class="site-bg-video js-bg-video" loop playsinline preload="auto">
+    <source src="assets/allsec.mp4" type="video/mp4">
+  </video>
+  <div class="site-bg-overlay"></div>
+</div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="logo"><span class="dot"></span>Yuvrajsinh Jadeja</div>
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Get in touch</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mobileOverlay">
+  <a href="#work">Work</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section class="hero" style="border-top:none; padding-top:140px;">
+  <video class="hero-bg-video js-bg-video" loop playsinline preload="auto">
+    <source src="assets/main.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-eyebrow"><span class="prompt">$</span> whoami</div>
+      <h1>Full stack<br>developer,<br>built for <span class="accent">real work.</span></h1>
+      <div class="type-line" id="typewriter"><span class="cursor" id="cursor"></span></div>
+      <div class="pills" id="pills">
+        <a class="pill primary" href="#work">View projects</a>
+        <a class="pill" href="#experience">My experience</a>
+        <a class="pill" id="copyEmail" href="#">Email: yuvrajsinhjadeja25023@gmail.com</a>
+        <a class="pill" href="tel:+916353127456">Call: +91 63531 27456</a>
+      </div>
+    </div>
+    <div class="hero-side">
+      <div><b>Based in</b> — Gandhinagar, Gujarat, IN</div>
+      <div><b>Studying</b> — MCA, LDRP-ITR (2025–2027)</div>
+      <div><b>Stack</b> — MERN · TypeScript · SQL</div>
+      <div><b>Focus</b> — Web apps, REST APIs, Generative AI</div>
+      <div><b>Also</b> — Client handling &amp; negotiation</div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about-grid">
+    <div>
+      <div class="section-head" style="margin-bottom:24px;">
+        <span class="section-num">01 — Summary</span>
+        <h2 class="section-title">About</h2>
+      </div>
+      <p class="about-text">
+        I'm an <b>MCA student</b> at LDRP Institute of Technology and Research, building scalable web applications
+        with the <b>MERN stack</b>, Core Java, TypeScript, SQL and REST APIs — with a growing focus on
+        <b>Generative AI</b> using the Google Gemini API. I like taking a project from a blank folder to a working
+        product: clean architecture, secure authentication, sensible database design, and interfaces that hold up
+        on mobile.
+      </p>
+      <p class="about-text" style="margin-top:16px;">
+        Alongside development, I ran the client-facing side of a small <b>car rental business</b> through college —
+        negotiating deals, coordinating a fleet and drivers, and working with outside vendors when demand outgrew
+        what we had. That, plus two years anchoring my college's annual function, is where the communication and
+        problem-solving that shows up in my code actually comes from.
+      </p>
+    </div>
+    <div>
+      <div class="stat-row">
+        <div class="stat"><b>8.50</b><span>CGPA · BCA · 1st Rank in College</span></div>
+        <div class="stat"><b>6+</b><span>Real-world software projects shipped</span></div>
+        <div class="stat"><b>4</b><span>Car fleet coordinated with drivers &amp; vendors</span></div>
+        <div class="stat"><b>2×</b><span>Annual function anchored, start to finish</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">02 — Toolkit</span>
+      <h2 class="section-title">Skills</h2>
+    </div>
+    <div class="skills-wrap">
+      <div class="skill-block">
+        <h3>Languages</h3>
+        <div class="tag-row">
+          <span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Core Java</span><span class="tag">SQL</span><span class="tag">Python</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Frontend</h3>
+        <div class="tag-row">
+          <span class="tag">React.js</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Tailwind CSS</span><span class="tag">Bootstrap</span><span class="tag">EJS</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Backend &amp; APIs</h3>
+        <div class="tag-row">
+          <span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">REST APIs</span><span class="tag">MVC Architecture</span><span class="tag">Authentication</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Databases</h3>
+        <div class="tag-row">
+          <span class="tag">MongoDB</span><span class="tag">Mongoose</span><span class="tag">MySQL</span><span class="tag">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Generative AI</h3>
+        <div class="tag-row">
+          <span class="tag">Google Gemini API</span><span class="tag">Prompt Engineering</span><span class="tag">AI Chatbot Development</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Tools &amp; Ops</h3>
+        <div class="tag-row">
+          <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Postman</span><span class="tag">VS Code</span><span class="tag">MongoDB Compass</span><span class="tag">npm</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">03 — Selected work</span>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="proj-list">
+
+      <div class="proj">
+        <div class="proj-index">01</div>
+        <div>
+          <div class="proj-name">YuvanAI</div>
+          <div class="proj-desc">An AI chatbot platform built end-to-end on the MVC pattern, with persistent conversation history and REST APIs handling asynchronous AI requests through the Google Gemini API. Interface built with Bootstrap and reusable EJS templates.</div>
+        </div>
+        <div class="proj-tags"><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Gemini API</span><span>EJS</span></div>
+      </div>
+
+      <div class="proj">
+        <div class="proj-index">02</div>
+        <div>
+          <div class="proj-name">VendorBridge</div>
+          <div class="proj-desc">A full-stack vendor management platform with authentication, authorization, sessions and complete CRUD operations. Responsive dashboards on the front end, MongoDB and Mongoose handling data underneath.</div>
+        </div>
+        <div class="proj-tags"><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Bootstrap</span></div>
+      </div>
+
+      <div class="proj">
+        <div class="proj-index">03</div>
+        <div>
+          <div class="proj-name">WanderLust</div>
+          <div class="proj-desc">A travel listing platform where users create, edit, delete and explore property listings, with Passport.js authentication and Cloudinary + Multer handling image upload and management on scalable RESTful APIs.</div>
+        </div>
+        <div class="proj-tags"><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Cloudinary</span><span>Passport.js</span></div>
+      </div>
+
+      <div class="proj">
+        <div class="proj-index">04</div>
+        <div>
+          <div class="proj-name">Instagram Reels Downloader</div>
+          <div class="proj-desc">A lightweight web app that downloads publicly accessible Instagram Reels with URL validation, backed by async APIs tuned for request processing and media handling.</div>
+        </div>
+        <div class="proj-tags"><span>JavaScript</span><span>Node.js</span><span>Express.js</span></div>
+      </div>
+
+      <div class="proj">
+        <div class="proj-index">05</div>
+        <div>
+          <div class="proj-name">Image Compressor</div>
+          <div class="proj-desc">A browser-based image compression tool with zero external libraries — preview, compress and download, tuned to keep visual quality while cutting file size, responsive on desktop and mobile.</div>
+        </div>
+        <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">04 — Track record</span>
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="log">
+
+      <div class="log-entry">
+        <div><span class="log-hash">#biz-ops</span></div>
+        <div>
+          <div class="log-meta">Business &amp; Client Coordination — Car Rental Business · During College · Gujarat</div>
+          <div class="log-title">Ran client relations for a 4-car rental fleet</div>
+          <ul class="log-body">
+            <li>Handled customer calls on travel locations, rental duration, vehicle needs and pricing, then negotiated deals to match.</li>
+            <li>Coordinated bookings, driver schedules and daily driver payments alongside a business partner.</li>
+            <li>Brought in outside vehicle dealers for buses and Tempo Travellers whenever demand outgrew the fleet.</li>
+            <li>Served local businessmen, tour groups and foreign clients — different customers, different pitch every time.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="log-entry">
+        <div><span class="log-hash">#stage</span></div>
+        <div>
+          <div class="log-meta">Anchor / Host — College Annual Function · LDRP Institute of Technology and Research</div>
+          <div class="log-title">Anchored the annual function, opening to closing — twice</div>
+          <ul class="log-body">
+            <li>Owned stage communication: introductions, announcements, transitions and audience engagement for the full program.</li>
+            <li>Coordinated with participants and organizers to keep the event running without gaps.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="log-entry">
+        <div><span class="log-hash">#classroom</span></div>
+        <div>
+          <div class="log-meta">Presentation &amp; Communication — BCA Coursework</div>
+          <div class="log-title">Presented academic topics in front of the class, regularly</div>
+          <ul class="log-body">
+            <li>Built confidence explaining technical and academic ideas clearly to a live audience.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">05 — Foundation</span>
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="log">
+      <div class="log-entry">
+        <div><span class="log-hash">2025—27</span></div>
+        <div>
+          <div class="log-title">Master of Computer Applications (MCA)</div>
+          <div class="log-meta">LDRP Institute of Technology and Research, Gandhinagar</div>
+        </div>
+      </div>
+      <div class="log-entry">
+        <div><span class="log-hash">—</span></div>
+        <div>
+          <div class="log-title">Bachelor of Computer Applications (BCA)</div>
+          <div class="log-meta">Saurashtra University, Rajkot — CGPA 8.50/10 (79.56%), First Rank in College</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-num">06 — Say hello</span>
+      <h2 class="section-title">Let's build something</h2>
+    </div>
+    <div class="contact-wrap">
+      <a class="contact-email" href="mailto:yuvrajsinhjadeja25023@gmail.com">yuvrajsinhjadeja25023@gmail.com</a>
+      <div class="contact-links">
+        <a href="tel:+916353127456">+91 63531 27456</a>
+        <a href="https://github.com/yuvrajsinh2523" target="_blank" rel="noopener">github.com/yuvrajsinh2523</a>
+        <a href="https://linkedin.com/in/yuvrajsinh-jadeja-25023y" target="_blank" rel="noopener">linkedin.com/in/yuvrajsinh-jadeja-25023y</a>
+        <span>Gandhinagar, Gujarat, India</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <video class="footer-bg-video js-bg-video" loop playsinline preload="auto">
+    <source src="assets/footer.mp4" type="video/mp4">
+  </video>
+  <div class="footer-overlay"></div>
+  <div class="container footer-inner">
+    <div class="footer-cta">Open to internships, freelance work, and full-stack roles.</div>
+    <div class="footer-links">
+      <a href="mailto:yuvrajsinhjadeja25023@gmail.com">yuvrajsinhjadeja25023@gmail.com</a>
+      <a href="tel:+916353127456">+91 63531 27456</a>
+      <a href="https://github.com/yuvrajsinh2523" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/yuvrajsinh-jadeja-25023y" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Yuvrajsinh Jadeja</span>
+      <span>Gandhinagar, Gujarat, India</span>
+    </div>
+  </div>
+</footer>
+
+<button class="sound-toggle" id="soundToggle" aria-label="Toggle background video sound">
+  <span class="icon">🔈</span><span class="label">Sound off</span>
+</button>
+
+<div class="copy-toast" id="copyToast">Copied to clipboard</div>
+
+<script src="script.js"></script>
+</body>
+</html>
