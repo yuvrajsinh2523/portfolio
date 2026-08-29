@@ -64,7 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
      button below is the one user gesture that's allowed to turn sound on
      for all three videos at once.
   ------------------------------------------------------------------- */
-  const videos = Array.from(document.querySelectorAll('.js-bg-video'));
+ const videos = Array.from(
+  document.querySelectorAll('.js-bg-video:not(.footer-bg-video)')
+);
   const soundToggle = document.getElementById('soundToggle');
   const soundIcon = soundToggle.querySelector('.icon');
   const soundLabel = soundToggle.querySelector('.label');
